@@ -1,4 +1,4 @@
-# My awesome TF module
+# My example TF module
 This solves all your infrastructure needs. (Just kidding, this is just an example :) )
 
 ## Usage

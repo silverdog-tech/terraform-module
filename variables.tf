@@ -10,12 +10,6 @@ variable "ec2_instance_name" {
   default = "Hello from Terraform on AWS"
 }
 
-variable "number_of_instances" {
-  type = number
-  description = "Number of EC2 instances to be spun up."
-  default = 1
-}
-
 variable "ec2_ami_id" {
   type = string
   description = "The AMI ID to use to launch the instance. NB: These differ between regions"
